@@ -1,0 +1,15 @@
+[project]
+name = "melleatutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mellea[all]>=0.0.2",
+    "ollama>=0.5.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
